@@ -1,0 +1,24 @@
+{
+  "hooks": {
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell.exe",
+            "args": [
+              "-NoProfile",
+              "-ExecutionPolicy",
+              "Bypass",
+              "-File",
+              "C:\\Users\\CHANGE-ME\\.claude\\scripts\\brain-backup.ps1"
+            ],
+            "timeout": 60,
+            "async": true,
+            "statusMessage": "Backing up memory to Brain"
+          }
+        ]
+      }
+    ]
+  }
+}
