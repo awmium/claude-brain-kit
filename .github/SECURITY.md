@@ -18,4 +18,4 @@ Remove the SessionEnd entry from `C:\Users\<you>\.claude\settings.json` (or open
 
 ## Reporting
 
-Open a GitHub issue, or email awmium@outlook.com for anything sensitive.
+Open a GitHub issue, or email hello@awmium.com for anything sensitive.
