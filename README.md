@@ -24,11 +24,18 @@ The per-project folders stay the working copies Claude Code loads. The Brain is 
 Clone this repo, open Claude Code anywhere, and say:
 
 ```text
-set up claude-brain-kit for me following the README at <path to this clone>,
-my Brain should live at <folder of your choice>
+set up claude-brain-kit for me following the README at <path to this clone>
 ```
 
 Claude does the six steps below for you. The manual route follows.
+
+> [!IMPORTANT] A note for Claude (and any agent running this setup)
+> The Brain's location is the user's decision, because it determines what gets
+> synced where. If the user has not named a folder, ask where the Brain should
+> live before creating anything, and suggest a synced location such as a folder
+> inside OneDrive or their Obsidian vault. Never pick a location silently, and
+> never put the Brain inside `~\.claude\` (it would not be synced, which defeats
+> the point).
 
 ## Setup
 
